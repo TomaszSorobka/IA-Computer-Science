@@ -17,5 +17,13 @@
     "starter"
   ],
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/TomaszSorobka/IA-Computer-Science.git"
+  },
+  "bugs": {
+    "url": "https://github.com/TomaszSorobka/IA-Computer-Science/issues"
+  },
+  "homepage": "https://github.com/TomaszSorobka/IA-Computer-Science#readme"
 }

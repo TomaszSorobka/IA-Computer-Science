@@ -6,8 +6,9 @@ export default class Player {
     this.width = 50;
     this.height = 80;
 
-    this.maxSpeed = 7;
+    this.jumping = true;
 
+    this.maxSpeed = 7;
     this.speedx = 0;
     this.speedy = 0;
 
@@ -46,7 +47,7 @@ export default class Player {
   }
 
   update(deltaTime) {
-    if (!deltaTime) return;
+    
 
     this.position.y += this.speedy;
     this.position.x += this.speedx;
