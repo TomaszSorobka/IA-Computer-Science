@@ -20,6 +20,8 @@ export default class InputHandler {
       }
     });
 
+    // ELO
+
     document.addEventListener("keyup", event => {
       switch (event.keyCode) {
         case 87:
